@@ -24,4 +24,7 @@
 
 
 Note: each column of input matrix represents a feature. Below is the header for each input matrix:
-NDVI, air temperature, net radiation, soil water content, nighttime temperature, daytime temperature, daytime temperature standard deviation, potential incoming shortwave radiation, incoming shortwave radiation, incoming longwave radiation, vapor pressure deficit, air pressure, precipitation, wind speed, friction velocity, outgoing shortwave radiation, outgoing longwave radiation, CO2 mole fraction, soil temperature
+IGBP, NDVI, air temperature, net radiation, soil water content, nighttime temperature, daytime temperature, daytime temperature standard deviation, potential incoming shortwave radiation, incoming shortwave radiation, incoming longwave radiation, vapor pressure deficit, air pressure, precipitation, wind speed, friction velocity, outgoing shortwave radiation, outgoing longwave radiation, CO2 mole fraction, soil temperature
+
+IGBP varies from 1 to 17, which corresponds to the following order:
+['BSV','CRO','CSH','CVM','DBF','DNF','EBF','ENF','GRA','MF','OSH','SAV','SNO','URB','WAT','WET','WSA']
